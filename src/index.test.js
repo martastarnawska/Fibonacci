@@ -1,4 +1,4 @@
-const fib = require('./fib');
+const fib = require('./index.js');
 
 
 //checking unusual values
