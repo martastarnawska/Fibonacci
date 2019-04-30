@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("function fib(num) {\n  var array = [];\n\n  if (typeof num === 'number' && num > 0 && Number.isInteger(num)) {\n    for (var i = 0; i < num; i++) {\n      if (i === 0) {\n        array.push(0);\n      } else if (i === 1) {\n        array.push(1);\n      } else {\n        var last = array[array.length - 1];\n        var penultimate = array[array.length - 2];\n        var next = last + penultimate;\n        array.push(next);\n      }\n    }\n\n    return array;\n  }\n\n  console.log(\"argument needs to be a positive integer\");\n}\n\nconsole.log(\"fiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii\");\nconsole.log(fib(3)); // export { fib }\n\nmodule.exports = fib;\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("function fib(num) {\n  var array = [];\n\n  if (typeof num === 'number' && num > 0 && Number.isInteger(num)) {\n    for (var i = 0; i < num; i++) {\n      if (i === 0) {\n        array.push(0);\n      } else if (i === 1) {\n        array.push(1);\n      } else {\n        var last = array[array.length - 1];\n        var penultimate = array[array.length - 2];\n        var next = last + penultimate;\n        array.push(next);\n      }\n    }\n\n    return array;\n  }\n\n  console.log(\"argument needs to be a positive integer\");\n}\n\nmodule.exports = fib;\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 
